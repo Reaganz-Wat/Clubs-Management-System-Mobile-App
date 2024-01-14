@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/admin_comments"
+            android:title="@string/comment"
+            android:icon="@drawable/comment"/>
+        <item
+            android:id="@+id/admin_aboutUs"
+            android:title="@string/aboutUs"
+            android:icon="@drawable/baseline_info_24"/>
+        <item
+            android:id="@+id/admin_share"
+            android:title="@string/share"
+            android:icon="@drawable/baseline_share_24"/>
+        <item
+            android:id="@+id/admin_feedback"
+            android:title="@string/sendFeedback"
+            android:icon="@drawable/feedback"/>
+        <item
+            android:id="@+id/admin_addMember"
+            android:title="@string/registerMember"
+            android:icon="@drawable/register_member"/>
+
+    </group>
+</menu>

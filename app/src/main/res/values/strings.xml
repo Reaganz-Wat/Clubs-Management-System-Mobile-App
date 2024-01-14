@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">CMS</string>
+    <string name="logo">App logo</string>
+    <string name="system_name">Clubs and Activities</string>
+    <string name="developers">Developers</string>
+    <string name="Image1">Main Developer</string>
+    <string name="Image2">Developer</string>
+    <string name="watmon">Reaganz Wat</string>
+    <string name="shakira">Shakira</string>
+    <string name="get_started">Get Started</string>
+
+    <string name="login">Login to Account</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="loginBtn">Login</string>
+    <string name="forgot_password">Forgot password ? </string>
+    <string name="reset">Reset</string>
+    <string name="userType">User Type: </string>
+
+    <string name="reset_password">Reset Password</string>
+    <string name="email">Email</string>
+
+    <string name="welcomeStudent">Hi Student !</string>
+    <string name="clubs">Clubs</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="home">Home</string>
+    <string name="sports_team">Sports Team</string>
+
+    <string name="studentName">Watmon</string>
+    <string name="studentEmail">reaganwatmon6@g...</string>
+    <string name="editProfile">Edit Profile</string>
+
+    <string name="firstName">FirstName</string>
+    <string name="lastName">LastName</string>
+    <string name="saveChanges">Save Changes</string>
+
+    <!--    Teachers dashboards strings -->
+    <string name="welcome_teacher">Hi teacher !</string>
+
+    <!--    Admin dashboards strings-->
+    <string name="welcome_admin">Hi Admin !</string>
+    <string name="create_clubs">Create Clubs</string>
+    <string name="schedule_matches">Create match</string>
+    <string name="manage_students">Students</string>
+    <string name="manage_teachers">Teachers</string>
+
+    <!--    Menu strings-->
+    <string name="comment">Comment</string>
+    <string name="aboutUs">About Us</string>
+    <string name="share">Share</string>
+    <string name="sendFeedback">Send Feedback</string>
+    <string name="registerMember">Register Member</string>
+
+    <string name="sportTeam">Sports Team</string>
+    <string name="joinClubs">Join clubs</string>
+</resources>

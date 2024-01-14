@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/SCREEN"
+    tools:context=".club_members">
+
+    <androidx.appcompat.widget.Toolbar
+        style="@style/TOOLBAR"
+        android:id="@+id/club_members_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                style="@style/TOPCURVE"
+                android:orientation="vertical" />
+
+            <TextView
+                style="@style/TEXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:text="Club Members"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:src="@mipmap/shakira"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Shakira"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Joined Date: 10/12/2021"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="@color/horizontalLineColor"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:src="@mipmap/teacher"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/studentName1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Watmon"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/joinedDate1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Joined Date: 20/10/2020"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="@color/horizontalLineColor"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:src="@mipmap/student"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Tim"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Joined Date: 3/4/2022"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="@color/horizontalLineColor"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:src="@mipmap/admin"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Henry"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Joined Date: 12/12/2022"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="@color/horizontalLineColor"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:src="@mipmap/create_students"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Will"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Joined Date: 19/2/2022"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="@color/horizontalLineColor"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

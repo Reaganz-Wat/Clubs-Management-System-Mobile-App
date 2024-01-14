@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/SCREEN"
+    tools:context=".club_members">
+
+    <androidx.appcompat.widget.Toolbar
+        style="@style/TOOLBAR"
+        android:id="@+id/sports_team_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TEXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:text="Sports Team"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:src="@mipmap/netball"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Busket Ball"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Coach: Shakira"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="@color/horizontalLineColor"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:src="@mipmap/tennisball"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/studentName1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Tennis Ball"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/joinedDate1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Coach: Watmon"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="@color/horizontalLineColor"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:src="@mipmap/football"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Football Team"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Coach: Tim"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="@color/horizontalLineColor"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:src="@mipmap/rugby"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Rugby Team"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Coach: Henry"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="@color/horizontalLineColor"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:src="@mipmap/net"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Netball Team"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Coach: Will"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="@color/horizontalLineColor"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

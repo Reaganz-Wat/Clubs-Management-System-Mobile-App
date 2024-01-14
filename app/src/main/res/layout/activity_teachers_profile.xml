@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/SCREEN"
+    tools:context=".teachers_profile">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/teacher_profile_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TOOLBAR"/>
+
+        <LinearLayout
+            android:id="@+id/admin_headingLayout"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_below="@id/teacher_profile_toolbar"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="60dp"
+            style="@style/TOPCURVE1"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/admin_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/teacher"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+            <TextView
+                android:id="@+id/teacher_profile_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/studentName"
+                style="@style/TEXT"
+                android:textSize="20sp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/teacher_profile_email"
+                style="@style/TEXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/studentEmail"
+                android:textSize="20sp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/admin_profile_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/admin_headingLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            style="@style/ROUNDCURVEBACKGROUND"
+            android:orientation="vertical">
+            <TableLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="20dp">
+
+                <TableRow
+                    android:padding="5dp">
+                    <TextView
+                        style="@style/TEXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="First Name:"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/teacher_profile_firstname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        style="@style/TEXT"
+                        android:layout_marginStart="5dp"
+                        android:text="Reagan" />
+                </TableRow>
+
+                <TableRow
+                    android:padding="5dp">
+                    <TextView
+                        style="@style/TEXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Last Name:"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/teacher_profile_lastname"
+                        style="@style/TEXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:layout_marginStart="5dp"
+                        android:text="Watmon" />
+                </TableRow>
+
+                <TableRow
+                    android:padding="5dp">
+                    <TextView
+                        style="@style/TEXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email:"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/teacher_profile_email1"
+                        style="@style/TEXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:layout_marginStart="5dp"
+                        android:text="@string/studentEmail" />
+                </TableRow>
+
+                <TableRow
+                    android:padding="5dp">
+                    <TextView
+                        style="@style/TEXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contact:"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/teacher_profile_contact"
+                        style="@style/TEXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="0780807525"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:padding="5dp">
+                    <TextView
+                        style="@style/TEXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/teacher_profession"
+                        style="@style/TEXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="Teacher"
+                        android:textSize="18sp" />
+                </TableRow>
+                <!-- Add more rows as needed -->
+            </TableLayout>
+            <Button
+                android:id="@+id/teacher_editProfile"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="@string/editProfile"
+                android:layout_marginBottom="5dp"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

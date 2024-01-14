@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CMS"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".teachers_profile"
+            android:exported="false" />
+        <activity
+            android:name=".display_clubs_to_join"
+            android:exported="false" />
+        <activity
+            android:name=".select_club_to_join"
+            android:exported="false" />
+        <activity
+            android:name=".admin_create_match_inputFields"
+            android:exported="false" />
+        <activity
+            android:name=".admin_create_match"
+            android:exported="false" />
+        <activity
+            android:name=".admin_create_sports_input_layout"
+            android:exported="false" />
+        <activity
+            android:name=".admin_profile"
+            android:exported="false" />
+        <activity
+            android:name=".admin_create_sports_team"
+            android:exported="false" />
+        <activity
+            android:name=".admin_register_club"
+            android:exported="false" />
+        <activity
+            android:name=".admin_create_club"
+            android:exported="false" />
+        <activity
+            android:name=".teachers_create_clubs"
+            android:exported="false" />
+        <activity
+            android:name=".custom_list_view_design"
+            android:exported="false" />
+        <activity
+            android:name=".admin_view_teachers"
+            android:exported="false" />
+        <activity
+            android:name=".club_activities"
+            android:exported="false" />
+        <activity
+            android:name=".admin_view_students"
+            android:exported="false" />
+        <activity
+            android:name=".header"
+            android:exported="false" />
+        <activity
+            android:name=".register_screen"
+            android:exported="false" />
+        <activity
+            android:name=".student_sportsteam"
+            android:exported="false" />
+        <activity
+            android:name=".teachersDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".adminDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".club_members"
+            android:exported="false" />
+        <activity
+            android:name=".clubs"
+            android:exported="false" />
+        <activity
+            android:name=".editProfile"
+            android:exported="false" />
+        <activity
+            android:name=".profile_screen"
+            android:exported="false" />
+        <activity
+            android:name=".settings_screen"
+            android:exported="false" />
+        <activity
+            android:name=".studentDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".reset_password"
+            android:exported="false" />
+        <activity
+            android:name=".login_screen"
+            android:exported="false" />
+        <activity
+            android:name=".get_started_screen"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

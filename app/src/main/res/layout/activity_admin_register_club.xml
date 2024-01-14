@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".admin_register_club">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/admin_register_club_toolbar"
+        android:layout_width="match_parent"
+        style="@style/TOOLBAR"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="vertical"
+                style="@style/TOPCURVE"/>
+            <LinearLayout
+                style="@style/ROUNDCURVEBACKGROUND"
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical"
+                >
+                <EditText
+                    android:id="@+id/team_name"
+                    android:layout_width="260dp"
+                    android:layout_gravity="center"
+                    android:hint="Team Name"
+                    android:textSize="20sp"
+                    android:inputType="text"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:id="@+id/create_description"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Description"
+                    android:textSize="20sp"
+                    android:inputType="text"
+                    android:layout_gravity="center"
+                    />
+                <Button
+                    android:id="@+id/create_club_button"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="Create Club"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
